@@ -6,21 +6,21 @@ import (
 	"github.com/BurntSushi/toml"
 )
 
-type config struct {
+type Config struct {
 	mysql Mysql
 }
 
 type Mysql struct {
-	username string
-	password string
-	host     string
-	dbname   string
+	Username string
+	Password string
+	Host     string
+	Dbname   string
 }
 
-var conf config
+var Conf Config
 
 func init() {
-	if _, err := toml.DecodeFile("./config.toml", &conf); err != nil {
+	if _, err := toml.DecodeFile("./config.toml", &Conf); err != nil {
 		log.Fatal(err)
 	}
 
