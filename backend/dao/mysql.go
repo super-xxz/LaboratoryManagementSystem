@@ -3,8 +3,7 @@ package dao
 import (
 	"fmt"
 	"log"
-
-	"../setting"
+	"project/backend/setting"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

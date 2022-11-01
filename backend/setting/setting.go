@@ -1,9 +1,7 @@
 package setting
 
 import (
-	"io/ioutil"
 	"log"
-	"os"
 
 	"github.com/BurntSushi/toml"
 )
@@ -22,21 +20,7 @@ type Mysql struct {
 var conf config
 
 func init() {
-	// if _,err := toml.DecodeFile("./config.toml",&conf); err != nil {
-	// 	log.Fatal(err)
-	// }
-	file, err := os.Open("config.toml")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	data, err := ioutil.ReadAll(file)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	err = toml.Unmarshal(data, &conf)
-	if err != nil {
+	if _, err := toml.DecodeFile("./config.toml", &conf); err != nil {
 		log.Fatal(err)
 	}
 
