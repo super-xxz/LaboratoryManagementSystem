@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+}
+body {
+  background-color: #d1cef3;
+  width: auto;
+}
+.logo {
+  width: 400px;
+  height: 100px;
+}
+.logo h2 {
+  position: relative;
+  display: inline;
+  left: 17px;
+  top: 12px;
+  width: 150px;
+  height: 89px;
+  opacity: 1;
+  text-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  line-height: 42px;
+  color: #4a3aff;
+  text-align: left;
+  vertical-align: top;
+}
+.logo img {
+  width: 250px;
+  height: 100px;
+}
+.login {
+  position: relative;
+  left: 550px;
+  top: 5px;
+  width: 700px;
+  height: 550px;
+  opacity: 1;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,94 @@
+.loginIn {
+  width: 300px;
+  height: 418px;
+  position: relative;
+  left: 60px;
+  top: 90px;
+}
+.loginIn h2 {
+  display: inline;
+  position: relative;
+  left: 10px;
+  top: -10px;
+  margin: auto;
+  width: 60px;
+  height: 42px;
+  opacity: 1;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  line-height: 42px;
+  color: #171521;
+  vertical-align: top;
+}
+.loginIn input::-webkit-input-placeholder {
+  /*账号*/
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 25.2px;
+  color: #7a7a7a;
+  text-align: left;
+}
+.loginIn input {
+  display: block;
+  margin: auto;
+  /*rectangle 436（边框）*/
+  border: solid #e9e1eb 0.5px;
+  border-radius: 3px;
+  width: 285px;
+  height: 44px;
+  opacity: 1;
+  background: #eff0f6;
+}
+.loginIn #sb {
+  width: 200px;
+  height: 44px;
+  border-radius: 3px;
+  opacity: 1;
+  background: rgba(74, 58, 255, 0.8);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 25.2px;
+  color: #eae8e8;
+}
+.loginIn .forgetpw > a {
+  /*primary btn*/
+  position: relative;
+  left: 5px;
+  top: -10px;
+  width: 268.03px;
+  height: 45.35px;
+  opacity: 1;
+  color: #bfbfc4;
+}
+.loginIn .register {
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 2px;
+  width: 200px;
+  height: 44px;
+  border-radius: 3px;
+  opacity: 1;
+  background: rgba(74, 58, 255, 0.8);
+}
+.loginIn .register a {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #eae8e8;
+  text-align: center;
+}
+.illustration {
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  top: -250px;
+}
+.illustration img {
+  width: 200px;
+  height: 200px;
+}
